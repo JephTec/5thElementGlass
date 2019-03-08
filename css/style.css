@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+/*  */
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+header {
+position: fixed;
+z-index: 1;
+}
+
+nav {
+  /* opacity: 0.5; */
+  height: 75px;
+  width: 100%;
+}
+
+.secondary {
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s ease-in;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+nav ul li {
+  padding-right: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#nav-link:hover {
+  color: orange;
+}
+
+#collapseIcon {
+  border-radius: 50%;
+  background-color: orange;
+}
+
+/* Main */
+.slider {
+  overflow: hidden;
+}
+
+
+.img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/CorbinLogo3.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/sky.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/skate.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+
+.content {
+  margin-top: 190px;
+  color: white;
+  text-align: center;
+  line-height: 2.1rem;
+}
+
+.content h2 {
+ font-weigth: 700;
+ font-size: 3rem;
+}
+
+.content h2 span {
+ color: orange;
+}
+
+.content p {
+  font-size: 1.3rem;
+}
+
+.content i {
+  font-size: 2rem;
+  margin: 0 .7rem;
+}
+
+.content .btn-outline-primary {
+  border: 1px solid white;
+  margin-left: 20px;
+  color: white;
+}
+
+.content .btn-outline-primary:hover {
+  margin-left: 20px;
+  background-color: orange;
+  color: white;
+}
+
+
+.content .btn-outline-secondary {
+  border: 1px solid orange;
+  color: white;
+}
+
+.content .btn-outline-secondary:hover {
+  background-color: orange;
+  border: 1px solid blue;
+}
+
+/* Intro */
+
+.intro-area {
+  color: #08318F;
+  padding: 100px 0;
+  /* position: relative; */
+}
+
+.sub-heading::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3%;
+  width: 6%;
+  height: 1.5px;
+  background-color: orange;
+  z-index: 1;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.sub-heading:hover::before {
+  width: 24%;
+  margin-left: -12%;
+}
+
+.sub-heading::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12%;
+  width: 24%;
+  height: 1px;
+}
+
+.sub-heading p {
+  /* position: relative; */
+  margin: 1.5rem auto;
+  line-height: 2rem;
+  letter-spacing: .05rem;
+}
+
+.intro-block {
+  color: #08318F;
+  position: relative;
+  background: #f7f7f7;
+  margin-top: 50px;
+  padding: 70px 25px 40px;
+  border-radius: 50%;
+  transition: .6s ease-in-out;
+  -webkit-transition: .6s ease-in-out;
+  -moz-transition: .6s ease-in-out;
+  -o-transition: .6s ease-in-out;
+  -ms-transition: .6s ease-in-out;
+  /* border: 10px solid #cceef9; */
+}
+
+.intro-block h3 {
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+.intro-block:hover {
+  background: orange;
+
+}
+
+.intro-icon {
+  position: absolute;
+  top: -20px;
+}
+
+.intro-icon i {
+  width: 63px;
+  height: 63px;
+  font-size: 30px;
+  color: white;
+  line-height: 2;
+  background-color: orange;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px #cceef9;
+}
+
+/* Features Section */
+
+.feature-area {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/jason.jpg');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ color: white;
+ padding: 100px 0;
+}
+
+.feature-title h2 {
+  margin-top: 40px;
+}
+
+.feature-block{
+  margin-top: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.feature-block:hover {
+  border-color: white;
+  -webkit-transition: .3 ease;
+  -moz-transition: .3 ease;
+  -ms-transition: .3 ease;
+  -o-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.feature-block::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.single-feature {
+  position: relative;
+  width: 300px;
+  float: left;
+  padding: 30px 10px;
+  border-right: 1px solid orange;
+  border-bottom: 1px solid orange;
+  /* -webkit-transition: .3 ease;
+  -moz-transition: .3 ease;
+  -ms-transition: .3 ease;
+  -o-transition: .3 ease;
+  transition: .3 ease; */
+}
+
+
+.single-feature:nth-last-of-type(odd) {
+  border-right: none;
+}
+
+.single-feature:nth-last-child(2) {
+  border-bottom: none;
+}
+
+.single-feature:last-child {
+  border-bottom: none;
+}
+
+.feature-icon i.fas {
+  border: 2px solid #fff;
+  margin-bottom: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: #00a7dd;
+  color: white;
+  width: 64px;
+  height: 64px;
+  -webkit-transition: .3 ease;
+  -moz-transition: .3 ease;
+  -ms-transition: .3 ease;
+  -o-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.feature-icon i.fas:hover {
+  border: 2px solid #00a7dd;
+  background-color: orange;
+  -webkit-transition: .3 ease;
+  -moz-transition: .3 ease;
+  -ms-transition: .3 ease;
+  -o-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.feature-mockup {
+  position: relative;
+  bottom: -150px;
+}
+
+/* Product features */
+
+.product-feature-area {
+  color: #08318F;
+  margin: 30px 0;
+}
+
+.product-image {
+  width: 75%;
+  margin: 45px 0;
+}
+
+.product-list {
+  position: relative;
+  margin: 30px 0;
+  padding-left: 80px;
+}
+
+.product-list i:hover {
+  color: white;
+  background-color: #00a7dd;
+  -webkit-transition: .5 ease;
+  -moz-transition: .5 ease;
+  -ms-transition: .5 ease;
+  -o-transition: .5 ease;
+  transition: .5 ease;
+}
+
+.product-icon i {
+  position: absolute;
+  left: 0;
+  width: 63px;
+  height: 63px;
+  line-height: 63px;
+  text-align: center;
+  font-size: 35px;
+  background: white;
+  color: #5E86E3;
+  border-radius: 50%;
+  border: 2px solid skyblue;
+}
+
+.product-detals h3 {
+  color: skyblue;
+  font-weight: 700;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.product-detals p {
+  color: #616161;
+}
+
+/* Product Showcase */
+
+.product-showcase {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/jason.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.showcase-title {
+  margin: 60px 0 10px;
+}
+
+.product-showcase .carousel-indicators li {
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+
+.carousel-inner {
+  margin: 15px 0;
+}
+
+.carousel-inner img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  padding: 5px;
+  margin-bottom: 150px;
+}
