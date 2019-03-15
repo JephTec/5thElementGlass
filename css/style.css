@@ -236,6 +236,8 @@ nav ul li {
   margin-top: 40px;
 }
 
+
+
 .feature-block{
   margin-top: 40px;
   display: inline-block;
@@ -323,15 +325,41 @@ nav ul li {
   margin: 30px 0;
 }
 
-.product-image {
-  width: 75%;
-  margin: 45px 0;
+.feat-img-block{
+  margin-top: 35px;
+}
+
+.feat-img{
+  overflow: hidden;
+  float: left;
+  max-width: 100%;
+
+}
+
+.feat-img img {
+  max-width: 100%;
+  margin: 0;
+
+  transition: transform .5s ease;
+}
+
+.feat-img img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+div .no-padding {
+  margin: 0;
+  padding: 0;
+
+
 }
 
 .product-list {
   position: relative;
   margin: 30px 0;
   padding-left: 80px;
+
 }
 
 .product-list i:hover {
