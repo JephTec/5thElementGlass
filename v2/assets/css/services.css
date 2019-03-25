@@ -24,7 +24,7 @@ ul{
 }
 
 .button_1{
-  border: 3px solid orange;
+  border: 1px solid orange;
   background: transparent;
   text-align: center;
   padding: 15px;
@@ -35,17 +35,17 @@ ul{
 }
 
 .button_1:hover {
-  background: blue;
+  background: orange;
+  border: 1px solid blue;
   transition: all 0.5s ease-in;
 }
 
 .dark {
 	padding: 15px;
-	/* background: #35424a; */
   background: rgba(0, 0, 0, 0.8);
 	color: #ffffff;
-	/* margin-top: 10px; */
 	margin-bottom: 10px;
+  border-radius: 15px;
 }
 
 
@@ -155,9 +155,6 @@ div .content p {
 
 /* Sidebar */
 aside#sidebar{
-	/* float:right; */
-	/* width:30%; */
-	/* margin-top:10px; */
 
 }
 
@@ -223,7 +220,7 @@ ul#services li{
 	border: orange solid 1px;
 	margin-bottom: 5px;
 	background: #e6e6e6;
-
+  border-radius: 15px;
 }
 
 /* Footer */

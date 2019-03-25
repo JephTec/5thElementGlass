@@ -69,7 +69,7 @@ nav ul li {
 
 .content {
   position: absolute;
-  top: 32%;
+  top: 30%;
   width: 100%;
   color: white;
   text-align: center;
@@ -210,103 +210,6 @@ nav ul li {
   box-shadow: 0px 0px 0px 10px #cceef9;
 }
 
-/* Features Section */
-
-/* .feature-area {
- background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/jason.jpg');
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
- color: white;
- padding: 100px 0;
-}
-
-.feature-title h2 {
-  margin-top: 40px;
-}
-
-
-
-.feature-block{
-  margin-top: 40px;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.feature-block:hover {
-  border-color: white;
-  -webkit-transition: .3 ease;
-  -moz-transition: .3 ease;
-  -ms-transition: .3 ease;
-  -o-transition: .3 ease;
-  transition: .3 ease;
-}
-
-.feature-block::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.single-feature {
-  position: relative;
-  width: 300px;
-  float: left;
-  padding: 30px 10px;
-  border-right: 1px solid orange;
-  border-bottom: 1px solid orange; */
-  /* -webkit-transition: .3 ease;
-  -moz-transition: .3 ease;
-  -ms-transition: .3 ease;
-  -o-transition: .3 ease;
-  /* transition: .3 ease; */
-/* }
-
-
-.single-feature:nth-last-of-type(odd) {
-  border-right: none;
-}
-
-.single-feature:nth-last-child(2) {
-  border-bottom: none;
-}
-
-.single-feature:last-child {
-  border-bottom: none;
-}
-
-.feature-icon i.fas {
-  border: 2px solid #fff;
-  margin-bottom: 5px;
-  padding: 15px;
-  border-radius: 50%;
-  font-size: 30px;
-  background-color: #00a7dd;
-  color: white;
-  width: 64px;
-  height: 64px;
-  -webkit-transition: .3 ease;
-  -moz-transition: .3 ease;
-  -ms-transition: .3 ease;
-  -o-transition: .3 ease;
-  transition: .3 ease;
-}
-
-.feature-icon i.fas:hover {
-  border: 2px solid #00a7dd;
-  background-color: orange;
-  -webkit-transition: .3 ease;
-  -moz-transition: .3 ease;
-  -ms-transition: .3 ease;
-  -o-transition: .3 ease;
-  transition: .3 ease;
-}
-
-.feature-mockup {
-  position: relative;
-  bottom: -100px;
-} */
-
 /* Product features */
 
 .product-feature-area {
@@ -360,20 +263,6 @@ div .no-padding {
   -o-transition: .5 ease;
   transition: .5 ease;
 }
-
-/* .product-icon i {
-  position: absolute;
-  left: 0;
-  width: 63px;
-  height: 63px;
-  line-height: 63px;
-  text-align: center;
-  font-size: 35px;
-  background: white;
-  color: #5E86E3;
-  border-radius: 50%;
-  border: 2px solid skyblue;
-} */
 
 .feature-icon i.fas,
 .feature-icon i.fab {
@@ -455,12 +344,10 @@ div .no-padding {
 
 /* CONTACT Section */
 .contact-area {
-  /* padding: 40px 0; */
   height: 100vh;
 }
 .contact-section {
   margin-top: 50px;
-  /* padding-bottom: 50px; */
 }
 
 .business-card img {
